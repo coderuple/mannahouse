@@ -8,7 +8,7 @@ type Artist = {
     updatedAt: Date;
 }
 
-export default function ArtistsPage({ artists }: { artists: Artist[] }) {
+export default function ArtistsPage() {
     return (
         <div>
             <h1>Artists</h1>
